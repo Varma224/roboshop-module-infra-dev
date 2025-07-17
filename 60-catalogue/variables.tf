@@ -13,3 +13,8 @@ variable "zone_id" {
 variable "zone_name" {
   default = "deeps.sbs"
 }
+
+variable "region" {
+  description = "AWS region to deploy resources"
+  type        = string
+}
